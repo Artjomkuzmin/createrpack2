@@ -1,31 +1,6 @@
 @echo off
 title Manager Console Pre-Release 1.1
 
-:login
-setlocal
-set "nameaccount="
-set "password="
-
-cls
-echo Welcome to Manager Console Pre-Release 1.1
-echo ------------------------------
-set /p "nameaccount=Enter your account name: "
-set /p "password=Enter your password: "
-
-if "%nameaccount%"=="YourUsername" (
-    if "%password%"=="YourPassword" (
-        echo Login successful.
-    ) else (
-        echo Incorrect password. Please try again.
-        pause
-        goto login
-    )
-) else (
-    echo Account not found. Please try again.
-    pause
-    goto login
-)
-
 :menu
 cls
 echo ===============================
