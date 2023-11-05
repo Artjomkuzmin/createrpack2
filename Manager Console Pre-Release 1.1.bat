@@ -1,5 +1,5 @@
 @echo off
-title Manager Console Pre-Release 1.0
+title Manager Console Pre-Release 1.1
 
 :login
 setlocal
@@ -7,7 +7,7 @@ set "nameaccount="
 set "password="
 
 cls
-echo Welcome to Manager Console Pre-Release 1.0
+echo Welcome to Manager Console Pre-Release 1.1
 echo ------------------------------
 set /p "nameaccount=Enter your account name: "
 set /p "password=Enter your password: "
@@ -29,7 +29,7 @@ if "%nameaccount%"=="YourUsername" (
 :menu
 cls
 echo ===============================
-echo Manager Console Pre-Release 1.0
+echo Manager Console Pre-Release 1.1
 echo ===============================
 echo 1. Display System Info
 echo 2. Run 'listdisk' Command
